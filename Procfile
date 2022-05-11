@@ -1,1 +1,1 @@
-web: ./start-listmonk.sh
+web: node backend/server.js
