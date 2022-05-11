@@ -3,12 +3,21 @@
   "version": "1.0.0",
   "description": "",
   "main": "backend/server.js",
+  "repository": "https://github.com/HussainAli9603/school-Mng",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node backend/server.js",
     "dev": "nodemon backend/server.js",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false && npm install --prefix frontend && npm run build --prefix frontend"
   },
+   "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-apt"
+    },
+    {
+      "url": "https://github.com/HussainAli9603/school-Mng"
+    }
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
