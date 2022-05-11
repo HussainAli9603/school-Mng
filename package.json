@@ -1,7 +1,10 @@
 {
-  "name": "ecommerce",
-  "version": "1.0.0",
-  "description": "",
+  "name": "listmonk",
+  "description": "Self-hosted newsletter + mailing list manager",
+  "repository": "https://github.com/HussainAli9603/school-Mng",
+  "logo": "https://listmonk.app/static/images/listmonk.svg",
+  "website": "https://listmonk.app",
+  "keywords": ["emails", "newsletter", "mailing-list"],
   "main": "backend/server.js",
   "repository": "https://github.com/HussainAli9603/school-Mng",
   "scripts": {
