@@ -35,5 +35,26 @@
     "nodemailer": "^6.6.3",
     "stripe": "^8.174.0",
     "validator": "^13.6.0"
-  }
+  },
+  "env": {
+    "ROOT_URL": {
+      "description": "URL of the installation",
+      "required": true,
+      "value": "https://eschool-mange.herokuapp.com"
+    },
+    "LISTMONK_APP__ADMIN_USERNAME": {
+      "description": "husnali1010@gmail.com",
+      "required": true
+    },
+    "LISTMONK_APP__ADMIN_PASSWORD": {
+      "description": "Usman09*",
+      "required": true
+    }
+  },
+
+  "scripts": {
+    "postdeploy": "./install-db.sh"
+  },
+
+  "success_url": "/admin/settings"
 }
